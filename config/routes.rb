@@ -2,6 +2,7 @@ Spaceart::Application.routes.draw do
   root "pages#home"
   get "about" => "pages#about"
   get "contact" => "pages#contact"
+  get "faq" => "pages#faq"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
