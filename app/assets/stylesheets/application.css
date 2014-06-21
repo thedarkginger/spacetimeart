@@ -11,3 +11,9 @@
  *= require_self
  *= require_tree .
  */
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
