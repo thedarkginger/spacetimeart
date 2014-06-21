@@ -1,5 +1,48 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:550,900);
 $body-bg: #2980b9; 
 $navbar-default-bg: #c0392b; 
 $navbar-default-link-color: #ecf0f1;
+$jumbotron-padding: 15px;
+$font-family-sans-serif: 'Lato', Arial;  
 
 @import 'bootstrap';
+
+.jumbotron {
+    padding: 0.3em 
+    h1 {
+        font-size: 2em;
+    }
+    p {
+        font-size: 1.2em;
+        .btn {
+            padding: 0.5em;
+        }
+    }
+}
+
+.jumbotron p {
+	font-family: 'Lato', Arial; 
+	text-align: center; 
+	font-weight: 900; 
+}
+
+#last p {
+	font-weight: 550; 
+}
+
+.imagecontainer {
+	text-align: center; 
+}
+
+.style_image {
+	border-right: 8px solid #2c3e50;
+	border-bottom: 8px solid black; 
+	border-left: 8px solid #2c3e50; 
+	border-top: 8px solid black;  
+	width: 80%%;  
+	margin-bottom: 10px;  
+}
+
+.coinbase { 
+	text-align: center; 
+	}
