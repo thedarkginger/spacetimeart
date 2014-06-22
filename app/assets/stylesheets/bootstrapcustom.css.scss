@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:550,900);
+@import url(http://fonts.googleapis.com/css?family=Lato);
 $body-bg: #2980b9; 
 $navbar-default-bg: #c0392b; 
 $navbar-default-link-color: #ecf0f1;
@@ -32,6 +32,9 @@ $font-size-base: 16px;
 	text-align: center; 
 }
 
+.aboutimage {
+	text-align: center;
+}
 .style_image {
 	border-right: 8px solid #2c3e50;
 	border-bottom: 8px solid black; 
@@ -39,6 +42,10 @@ $font-size-base: 16px;
 	border-top: 8px solid black;  
 	width: 77%;  
 	margin-bottom: 10px;  
+}
+
+#about .style_image {
+	width: 20%;
 }
 
 .coinbase { 
