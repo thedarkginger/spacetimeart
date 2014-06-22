@@ -3,21 +3,18 @@ $body-bg: #2980b9;
 $navbar-default-bg: #c0392b; 
 $navbar-default-link-color: #ecf0f1;
 $jumbotron-padding: 15px;
-$font-family-sans-serif: 'Lato', Arial;  
+$font-family-sans-serif: 'Lato', Arial;
+$font-size-base: 16px;   
 
 @import 'bootstrap';
 
+.navbar navbar-default {
+	font-size: 30px;
+}
+
 .jumbotron {
     padding: 0.3em 
-    h1 {
-        font-size: 2em;
-    }
-    p {
-        font-size: 1.2em;
-        .btn {
-            padding: 0.5em;
-        }
-    }
+
 }
 
 .jumbotron p {
@@ -62,4 +59,8 @@ $font-family-sans-serif: 'Lato', Arial;
 	font-weight: 550;
 	text-align: left;
 
+}
+
+#contact h1 {
+	font-size: 35px; 
 }
