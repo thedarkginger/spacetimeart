@@ -8,6 +8,37 @@ $font-size-base: 16px;
 
 @import 'bootstrap';
 
+
+/* Styles go here */
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 200px;
+  background-color: #34495e;
+  padding: 20px;
+}
+
+
+
 .navbar navbar-default {
 	font-size: 30px;
 }
@@ -85,4 +116,8 @@ $font-size-base: 16px;
 
 #contact h1 {
 	font-size: 35px; 
+}
+
+#twitterbutton {
+	text-align: right;
 }
